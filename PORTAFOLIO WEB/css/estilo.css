@@ -1,0 +1,50 @@
+
+body 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.mi-div 
+{
+    width: 90%;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    background: linear-gradient(to right, #000 70%, #fff 80%);
+    position: relative;
+    overflow: hidden; /* Para evitar que la imagen sobresalga */
+}
+
+.left-section 
+{
+    width: 60%; /* Ajusta según sea necesario */
+    margin-top: 5%;
+    padding-right: 20px; /* Añadido para separar la imagen del texto */
+}
+
+.ion-icon 
+{
+    font-size: 70px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+}
+
+.img-20 
+{
+    max-width: 100%;
+    width: 400px; /* Ajusta el ancho según sea necesario */
+    float: right; /* Alinea la imagen a la derecha */
+    margin-top: 7%; /* Ajusta el margen superior según sea necesario */
+    margin-right: 230px;
+    transition: transform 0.5s ease; /* Agregamos una transición suave */
+}
+.img-20:hover
+{
+    transform: rotate(30deg); /* Gira la imagen 20 grados al pasar el mouse sobre ella */
+}
